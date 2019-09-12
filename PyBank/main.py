@@ -7,8 +7,6 @@ csvpath_output = ("csv_data/PyBankResults.txt")
 with open(csvpath) as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
    
-    csvreader=csv.reader(csvfile,delimiter=',')
-   
     months=0
     revenue=0
   
